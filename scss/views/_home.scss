@@ -1,0 +1,41 @@
+.main-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  align-items: center;
+  .left-bubble {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    z-index: -1;
+    width: 300px;
+    overflow: hidden;
+    opacity: 0.1;
+  }
+  .right-bubble {
+    position: absolute;
+    right: 0;
+    width: 400px;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
+    opacity: 0.1;
+  }
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  z-index: -1;
+}
+
+#tsparticles {
+  height: 500px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  z-index: -100;
+}

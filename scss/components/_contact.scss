@@ -1,0 +1,67 @@
+.contact-main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .contact-title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: start;
+    margin: 40px;
+    font-size: 38px;
+  }
+  .contact-underline {
+    background-color: $clr5;
+    height: 5px;
+    width: 100px;
+  }
+  .jobs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .job {
+    border: 1px solid  #fa9579;
+    display: flex;
+    justify-content: start;
+    width: 280px;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    margin-bottom: 24px;
+    align-items: center;
+    border-radius: 50px;
+    background: #ffffff;
+    transition: all 0.5s ease;
+    box-shadow: 0 15px 30px 0 rgba(250, 149, 121, 0.15);
+    .job-company {
+      font-family: 'Roboto', sans-serif;
+      margin-bottom: 10px;
+      color: $clr5;
+      text-transform: uppercase;
+    }
+    .job-title {
+      font-size: 1.467rem;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      margin: 0;
+      color: #06133d;
+      line-height: 1.42;
+    }
+    .job-logo {
+      width: 30px;
+      margin-right: 40px;
+    }
+  }
+}
